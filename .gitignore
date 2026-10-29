@@ -1,0 +1,25 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Testing and logs
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
